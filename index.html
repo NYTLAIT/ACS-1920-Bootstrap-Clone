@@ -2,216 +2,319 @@
 <html>
     <head>
         <meta charset="utf-8">
-        <meta name="viewport" cotent="width=device-width, initial-scale=1">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Crunchyroll Clone</title>
 
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" 
+            integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+        <!-- bootstrap icons -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
     </head>
+
     <body>
-        <div class="container">
-            <header class="NULL">
-
+        <main>
+            <div class="container-fluid">
+            <!-- background image -->
                 <div class="container">
-                    <a class="NULL">
-                    <img src="" alt="" class="NULL">
-                    <p class="NULL"></p>
-                    </a>
+                    
                 </div>
+            </div>
 
-                <div class="NULL">
-                    <button class="NULL">
-                        <p class="NULL">LOG IN</p>
+            <!-- THE PLANS -->
+            <div class="container">
+                <h2 class="text-center">Try free for 7 days</h2>
+
+                <!-- BUTTONS FOR MONTHLY/YEARLY -->
+                <div class="container row">
+                    <button class="btn btn-">
+                        <p>Monthly</p>
                     </button>
-                    <div class="NULL">
-                        <button class="NULL">
-                            <p class="NULL">EXPLORE</p>
-                        </button>
-                        <button class="NULL">
-                            <img src="" alt="" class="NULL">
-                            <p class="NULL">START 7-DAY FREE TRIAL</p>
-                        </button>
-                    </div>
+                    <button class="btn">
+                        <p>Yearly</p>
+                        <p><small>SAVE 16%</small></p>
+                    </button>
                 </div>
-            </header>
 
-            <main class="NULL">
+                <!-- THE PLANS - cards -->
+                <div class="row gx-3">
 
+                    <!-- FAN -->
+                    <div class="col-md-4">
+                        <div class="card h-100">
+                            <!-- text -->
+                            <div class="card-body">
+                                <h3 class="card-title text-center">Fan</h3>
+                                <h4 class="card-subtitle lead text-center">$7.99/mo</h4>
+                                <p class="text-center m-0"><small>+ APPLICABLE TAXES</small></p>
+                            </div>
+                            <!-- buttons -->
+                            <div class="d-flex flex-column">
+                                <button class="btn p-0"><b>Start 7-Day Free Trial</b></button>
+                                <button class="btn p-0"><b>Skip Free Trial</b></button>
+                            </div>
+                            <!-- list -->
+                            <div class="card-body">
+                                <ul class="list-unstyled">
+                                    <li class="d-flex">
+                                        <i class="bi bi-check me-2"></i>
+                                        <small>No ads</small>
+                                    </li>
+                                    <li class="d-flex">
+                                        <i class="bi bi-check me-2"></i>
+                                        <small>Complete access to Crunchyroll's library</small>
+                                    </li>
+                                    <li class="d-flex">
+                                        <i class="bi bi-check me-2"></i>
+                                        <small>New episodes shortly after airing in Japan</small>
+                                    </li>
+                                    <li class="d-flex">
+                                        <i class="bi bi-check me-2"></i>
+                                        <small>Access to Crunchyroll Game Vault</small>
+                                    </li>
+                                    <li class="d-flex">
+                                        <i class="bi bi-check me-2"></i>
+                                        <small>Crunchyroll Store Deals: 5% off select products*</small>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- MEGA FAN -->
+                    <div class="col-md-4">
+                         <div class="card h-100">
+                            <!-- text -->
+                            <div class="card-body">
+                                <h3 class="card-title text-center">Mega Fan</h3>
+                                <h4 class="card-subtitle lead text-center">$11.99/mo</h4>
+                                <p class="text-center m-0"><small>+ APPLICABLE TAXES</small></p>
+                            </div>
+                            <!-- buttons -->
+                            <div class="d-flex flex-column">
+                                <button class="btn p-0"><b>Start 7-Day Free Trial</b></button>
+                                <button class="btn p-0"><b>Skip Free Trial</b></button>
+                            </div>
+                            <!-- list -->
+                            <div class="card-body">
+                                <ul class="list-unstyled card-body">
+                                    <li class="d-flex">
+                                        <i class="bi bi-check me-2"></i>
+                                        <small>No ads, plus access to all content</small>
+                                    </li>
+                                    <li class="d-flex">
+                                        <i class="bi bi-check me-2"></i>
+                                        <small>Stream on a total of 4 devices at a time</small>
+                                    </li>
+                                    <li class="d-flex">
+                                        <i class="bi bi-check me-2"></i>
+                                        <small>Download HD videos</small>
+                                    </li>
+                                    <li class="d-flex">
+                                        <i class="bi bi-check me-2"></i>
+                                        <small>Access to Crunchyroll Game Vault</small>
+                                    </li>
+                                    <li class="d-flex">
+                                        <i class="bi bi-check me-2"></i>
+                                        <small>Crunchyroll Store Deals: 10% off select products; 
+                                            Members only offers & early access to sales; 
+                                            Free US Shipping > $50*</small>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- ULTIMATE FAN -->
+                    <div class="col-md-4">
+                        <div class="card h-100">
+                        <!-- text -->
+                            <div class="card-body">
+                                <h3 class="card-title text-center">Ultimate Fan</h3>
+                                <h4 class="card-subtitle lead text-center">$7.99/mo</h4>
+                                <p class="text-center m-0"><small>+ APPLICABLE TAXES</small></p>
+                            </div>
+                            <!-- buttons -->
+                            <div class="d-flex flex-column">
+                                <button class="btn p-0"><b>Start 7-Day Free Trial</b></button>
+                                <button class="btn p-0"><b>Skip Free Trial</b></button>
+                            </div>
+                            <!-- list -->
+                            <div class="card-body">
+                                <ul class="list-unstyled card-body">
+                                    <li class="d-flex">
+                                        <i class="bi bi-check me-2"></i>
+                                        <small>Access to Crunchyroll Manga</small>
+                                    </li>
+                                    <li class="d-flex">
+                                        <i class="bi bi-check me-2"></i>
+                                        <small>Stream on up to 6 devices at a time</small>
+                                    </li>
+                                    <li class="d-flex">
+                                        <i class="bi bi-check me-2"></i>
+                                        <small>Offline Viewing</small>
+                                    </li>
+                                    <li class="d-flex">
+                                        <i class="bi bi-check me-2"></i>
+                                        <small>Access Crunchyroll Game Vault, a catalog of free games</small>
+                                    </li>
+                                    <li class="d-flex">
+                                        <i class="bi bi-check me-2"></i>
+                                        <small>Crunchyroll Store Deals: 15% off select products; 
+                                            Members only offers & early access to sales; 
+                                            Free US Shipping*</small>
+                                    </li>
+                                    <li class="d-flex">
+                                        <i class="bi bi-check me-2"></i>
+                                        <small>Exclusive swag bag after 12 consecutive months of subscription</small>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                <!-- END THE PLANS - cards -->
+                </div>
+
+                <!-- FOOTER/FINE PRINT -->
                 <div class="container">
-                    <h2 class="------h2bold">Upgrade Your Anime Experience with Premium</h2>
-                    <button class="NULL">
-                        <img src="" alt="" class="NULL"> 
-                        <p class="NULL">Try MEGA FAN Free For 7 Days</p>
-                    </button>
-                    <p class="------0"><small>After your free Crunchyroll Premium: Mega Fan trial, your account will automatically renew at $11.99 per month. You may cancel at any time.</small></p>
-                    <div>
-                        <p class="NULL">COMPARE ALL PLANS</p>
-                        <img src="" alt="" class="NULL">
-                    </div>
+                    <p class="text-center"><small>Free trial offer valid for new and eligible subscribers. 
+                        Plan automatically renews after trial period at the price selected in the plan comparison. 
+                        You may cancel at any time. 
+                        Restrictions and other terms apply, including changes to prices, discounts, content and features.</small></p>
+                </div>
+            </div>
+
+            <!-- FIRST TO WATCH -->
+            <div class="container">
+                <div class="container">
+                    <h1>Be the First to Watch</h1>
+                    <p class="lead">
+                        Stream full seasons of the top anime, simulcasts, Crunchyroll Originals, and more!</p>
                 </div>
 
-                <div class="NULL">
-                    <h1 class="NULL">Get More with Premium</h1>
-                    <p class="NULL">Enjoy Crunchyroll's entire library ad-free, including episodes shortly after being released in Japan. Plus, get exclusive discounts at the Crunchyroll Store!</p>
-                    <button class="NULL">
-                        <p class="NULL">Compare All Plans</p>
-                        <img src="" alt="" class="NULL">
-                    </button>
-                </div>
-
-                <div class="NULL">
-                    <div>
-                        <img src="" alt="" class="------1">
-                        <p>Ad-free streaming</p>
+                <div class="container row">
+                    <div class="col">
+                        <img src="" alt="">
+                        <p><small>Gachiakuta</small></p>
+                        <p><small>Sub | Dub</small></p>
                     </div>
-                    <div>
-                        <img src="" alt="" class="NULL">
-                        <p>Complete access to Crunchyroll's library</p>
-                    </div>
-                    <div>
-                        <img src="" alt="" class="NULL">
-                        <p>New episodes shortly after releasing in Japan</p>
-                    </div>
-                    <div>
-                        <img src="" alt="" class="NULL">
-                        <p>15% off selecct merch at the Crunchyroll Store</p>
-                    </div>
-                    <div>
-                        <img src="" alt="" class="NULL">
-                        <p>Access to Crunchryroll Game Vault</p>
-                    </div>
-                    <div>
-                        <img src="" alt="" class="NULL">
-                        <p>Member only offers and early access to sales</p>
-                    </div>
-                    <div>
-                        <img src="" alt="" class="NULL">
-                        <p>Stream on a total of 6 devices at a time</p>
-                    </div>
-                    <div>
-                        <img src="" alt="" class="NULL">
-                        <p>Download HD videos</p>
+                    <div class="col-md-3">
+                        <img src="" alt="">
+                        <p><small>Rent-a-Girlfriend</small></p>
+                        <p><small>Sub | Dub</small></p>
                     </div>
                 </div>
+            </div>
 
-                <p class="------1"></p>
+            <!-- ALREADY A MEMBER -->
+             <div class="container">
+                <h1 class="text-center">Already a Member?</h1>
+                <button class="btn">Log in</button>
+                <p class="text-center">Or <a href="">Create an Account</a> for free!</p>
+            <!-- END ALREADY A MEMBER -->
+             </div>
 
-                <h1 class="NULL">Pick Your Premium</h1>
-
-                <div class="NULL">
-                    <button class="NULL">
-                        <p class="NULL">Monthly</p>
-                    </button>
-                    <button class="NULL">
-                        <p class="NULL">Yearly</p>
-                        <p class="------0bold"><small>SAVE %16</small></p>
+            <!-- PREMIUM PERKS -->
+            <div class="container">
+                <!-- TEXT -->
+                <div>
+                    <h1 class="text-center">Get More with Premium</h1>
+                    <p class="lead text-center">Enjoy Crunchyroll's entire library ad-free, 
+                        including episodes shortly after being released in Japan. 
+                        Plus, get exclusive discounts at the Crunchyroll Store!</p>
+                    <button class="btn d-flex text-center">
+                        <p><small><b>Compare All Plans</b></small></p>
+                        <i class="bi bi-arrow-up"></i>
                     </button>
                 </div>
 
-                <div class="NULL">
-                    <div class="NULL">
-                        <div class="NULL">
-                            <img src="" alt="" class="NULL">
-                            <p class="NULL">Most Popular</p>
-                            <img src="" alt="" class="NULL">
+                <!-- FIGURES -->
+                <div class="row">
+                    <div class="col-lg-2 col-md-4 col-sm-6">
+                        <div class="card h-100">
+                            <img src="" alt="">
+                            <p><small>Ad-free streaming</small></p>
                         </div>
-                        <h2 class="------h2">Fan</h2>
-                        <h3 class="NULL">$7.99/mo</h3>
-                        <p class="------0"><small>+APPLICALBLE TAXES</small></p>
-                        <button class="NULL">Start 7-Day Free Trial</button>
-                        <p class="------bold">Skip Free Trial</p>
-                        <ul class="NULL">
-                            <!-- Check mark as the bullet points -->
-                            <li class="NULL"><p class="------1">No ads</p></li>
-                            <li class="NULL"><p class="------1">Complete access to Crunchyroll's library</p></li>
-                            <li class="NULL"><p class="------1">New episodes shortly after airing in Japan</p></li>
-                            <li class="NULL"><p class="------1">Crunchyroll Store Deals: 5% off select products</p></li>
-                        </ul>
                     </div>
-
-                    <div class="NULL">
-                        <h2 class="------h2"></h2>
-                        <h3 class="NULL"></h3>
-                        <p class="------0"><small>+APPLICALBLE TAXES</small></p>
-                        <button class="NULL">Start 7-Day Free Trial</button>
-                        <p class="------bold"></p>
-                        <ul class="NULL">
-                            <!-- Check mark as the bullet points -->
-                            <li class="NULL"><p class="------1">No ads, plus access to all content</p></li>
-                            <li class="NULL"><p class="------1">Stream on a total of 4 devices at a time</p></li>
-                            <li class="NULL"><p class="------1">Download HD videos</p></li>
-                            <li class="NULL"><p class="------1">Access to Crunchyroll Game Vault</p></li>
-                            <li class="NULL"><p class="------1">Crunchyroll Store Details: 10% off select products; Members only offers & early access to sales; Free US Shipping > $50*</p></li>
-                        </ul>
-                    </div>
-
-                    <div class="NULL">
-                        <h2 class="------h2"></h2>
-                        <h3 class="NULL"></h3>
-                        <p class="------0"><small>+APPLICALBLE TAXES</small></p>
-                        <button class="NULL">Start 7-Day Free Trial</button>
-                        <p class="------bold"></p>
-                        <ul class="NULL">
-                            <!-- Check mark as the bullet points -->
-                            <li class="NULL"><p class="------1">Access to Crunchyroll Manga</p></li>
-                            <li class="NULL"><p class="------1">Stream on up to 6 devices at a time</p></li>
-                            <li class="NULL"><p class="------1">Offline Viewing</p></li>
-                            <li class="NULL"><p class="------1">Access Crunchyroll Game Vault, a catalog of free games</p></li>
-                            <li class="NULL"><p class="------1">Crunchyroll Store Deals: 15% off select products; Members only offers & early access to sales; Free US Shipping*</p></li>
-                            <li class="NULL"><p class="------1">Exclusive swag bag after 12 consecutive months of subscription</p></li>
-                        </ul>
-                    </div>
-                </div>
-
-                <p class="------0"><small>Free trial offer valid for new and eligible subscribers. Plan automatically renews after trial period at the price selected in the plan comparison. You may cancel at any time. Restrictions and other terms apply, including changes to prices, discounts, content and features.</small></p>
-
-                <div class="NULL">
-                    <div class="NULL">
-                        <!-- background photo -->
-                    </div>
-
-                    <div class="NULL">
-                        <div class="NULL">
-                            <img src="" alt="" class="NULL">
-                            <h3 class="------bold">Crunchyroll</h3>
-                            <p class="------bold">manga</p>
+                    <div class="col-lg-2 col-md-4 col-sm-6">
+                        <div class="card h-100">
+                            <img src="" alt="">
+                            <p><small>Complete access to Crunchyroll's library</small></p>
                         </div>
-                        <h3 class="------bold">Introducing Crunchyroll Manga!</h3>
-                        <p class="NULL">An entire manga library at yyour fingertips</p>
-                        <button class="NULL">
-                            <p class="------bold">SEE PLAN OPTIONS</p>
-                        </button>
                     </div>
-
-                    <div class="NULL">
-                        <img src="" alt="" class="NULL">
+                    <div class="col-lg-2 col-md-4 col-sm-6">
+                        <div class="card h-100">
+                            <img src="" alt="">
+                            <p><small>New episodes shortly after releasing in Japan</small></p>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-4 col-sm-6">
+                        <div class="card h-100">
+                            <img src="" alt="">
+                            <p><small>15% off select merch at the Crunchyroll Store</small></p>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-4 col-sm-6">
+                        <div class="card h-100">
+                            <img src="" alt="">
+                            <p><small>Access to Crunchyroll Game Vault</small></p>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-4 col-sm-6">
+                        <div class="card h-100">
+                            <img src="" alt="">
+                            <p><small>Member only offers and early access to sales</small></p>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-4 col-sm-6">
+                        <div class="card h-100">
+                            <img src="" alt="">
+                            <p><small>Stream on a total of 6 devices at a time</small></p>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-4 col-sm-6">
+                        <div class="card h-100">
+                            <img src="" alt="">
+                            <p><small>Download HD videos</small></p>
+                        </div>
                     </div>
                 </div>
-
-                <div class="NULL">
-                    <h1 class="NULL">Be the First to Watch</h1>
-                    <p class="NULL">Stream full seasons of the top anime, simulcasts, Crunchyroll Originals, and more!</p>
+                
+                <!-- FOOTER -->
+                <div>
+                    <p class="text-center"><small>Benefits may differ based on the selected 
+                        subscription tier and the region in which you are located.</small></p>
                 </div>
+            </div>
 
-                <div class="NULL">
-                    <!-- 36 of em -->
-                    <div class="NULL">
-                        <img src="" alt="" class="NULL">
-                        <p class="------1"></p>
-                    </div>
-                </div>
+            <!-- CRUNCHYROLL MANGA -->
+            <div class="container">
+            </div>
 
-                <div class="NULL">
-                    <img src="" alt="" class="">
-                    <div class="NULL">
-                        <div class="NULL">
-                            <img src="" alt="" class="NULL">
-                            
+            <!-- FAQ -->
+            <div class="container">
+                <!-- item 1 -->
+                <div class="accordian">
+                    <div class="accordian-item">
+                        <h4 class="accordian-header">
+                            <button class="accordian-button">
+                                Does Crunchyroll offer a free trial?
+                            </button>
+                        </h4>
+                        <div class="accordian-collapse collapse show">
+                            <div class="accordian-body">
+                                <p>Yes! Crunchyroll provides a 7-day free trial for premium plans, 
+                                    letting users experience ad-free streaming and other benefits before subscribing.</p>
+                            </div>
                         </div>
                     </div>
                 </div>
 
-
-            </main>
-        </div>
+                <!-- item 2 -->
+            
+            <!-- END FAQ -->
+            </div>
+        </main>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+            crossorigin="anonymous"></script>
     </body>
 </html>
